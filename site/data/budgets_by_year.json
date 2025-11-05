@@ -1,0 +1,23 @@
+[
+  {
+    "toptier_code": "097",
+    "agency_name": "Department of Defense",
+    "fiscal_year": 2025,
+    "outlay_amount": 743624000000.0,
+    "obligated_amount": 721392000000.0
+  },
+  {
+    "toptier_code": "089",
+    "agency_name": "Department of Energy",
+    "fiscal_year": 2025,
+    "outlay_amount": 46000000000.0,
+    "obligated_amount": 42000000000.0
+  },
+  {
+    "toptier_code": "070",
+    "agency_name": "Department of Homeland Security",
+    "fiscal_year": 2025,
+    "outlay_amount": 109000000000.0,
+    "obligated_amount": 103000000000.0
+  }
+]

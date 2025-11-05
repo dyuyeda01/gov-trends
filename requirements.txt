@@ -1,0 +1,5 @@
+pandas
+sqlalchemy
+yfinance
+requests
+python-dateutil

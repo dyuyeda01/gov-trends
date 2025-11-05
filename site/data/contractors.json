@@ -1,0 +1,44 @@
+[
+  {
+    "id": 3,
+    "name": "Booz Allen Hamilton",
+    "ticker": "BAH",
+    "sector": "Consulting/Defense"
+  },
+  {
+    "id": 7,
+    "name": "General Dynamics",
+    "ticker": "GD",
+    "sector": "Defense"
+  },
+  {
+    "id": 1,
+    "name": "Leidos",
+    "ticker": "LDOS",
+    "sector": "Defense/Cyber"
+  },
+  {
+    "id": 5,
+    "name": "Lockheed Martin",
+    "ticker": "LMT",
+    "sector": "Defense"
+  },
+  {
+    "id": 6,
+    "name": "Northrop Grumman",
+    "ticker": "NOC",
+    "sector": "Defense"
+  },
+  {
+    "id": 4,
+    "name": "RTX",
+    "ticker": "RTX",
+    "sector": "Defense"
+  },
+  {
+    "id": 2,
+    "name": "SAIC",
+    "ticker": "SAIC",
+    "sector": "Defense/IT"
+  }
+]

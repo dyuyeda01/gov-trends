@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" class="bg-slate-950">
+<head>
+  <meta charset="utf-8" />
+  <title>GovTrends AI — Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <nav class="nav">
+    <div class="container">
+      <a href="./index.html" class="brand">GovTrends AI</a>
+      <div class="links">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./contractors.html">Contractors</a>
+        <a href="./trends.html">Gov Trends</a>
+        <a href="https://github.com/dyuyeda01/gov-trends">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-8">
+    <h1 class="title">Weekly Government & Contractor Pulse</h1>
+    <p class="subtitle">Data-driven view of contractor stocks, agency budgets, and workforce trends.</p>
+
+    <section class="grid-2">
+      <div class="card">
+        <h2>Contractor Stock Performance</h2>
+        <canvas id="stocksLine"></canvas>
+      </div>
+      <div class="card">
+        <h2>Government Employment (BLS)</h2>
+        <canvas id="workforceLine"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/api.js"></script>
+  <script src="./js/charts.js"></script>
+  <script>
+    (async () => {
+      const [stocks, workforce] = await Promise.all([
+        window.api.getJSON('stocks_timeseries.json'),
+        window.api.getJSON('workforce_timeseries.json'),
+      ]);
+      window.charts.renderStocksLine('stocksLine', stocks);
+      window.charts.renderWorkforceLine('workforceLine', workforce);
+    })();
+  </script>
+</body>
+</html>
