@@ -1,47 +1,13 @@
-<!doctype html>
-<html lang="en" class="bg-slate-950">
-<head>
-  <meta charset="utf-8" />
-  <title>GovTrends AI — Contractors</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body class="bg-slate-950 text-slate-100">
-  <nav class="nav">
-    <div class="container">
-      <a href="./index.html" class="brand">GovTrends AI</a>
-      <div class="links">
-        <a href="./contractors.html" class="active">Contractors</a>
-        <a href="./trends.html">Gov Trends</a>
-        <a href="https://github.com/dyuyeda01/gov-trends">GitHub</a>
-      </div>
-    </div>
-  </nav>
-
-  <main class="container py-8">
-    <h1 class="title">Major Government Contractors</h1>
-    <section id="cards" class="grid-3"></section>
-
-    <div class="card mt-6">
-      <h2>Closing Prices (Recent)</h2>
-      <canvas id="stocksMulti"></canvas>
-    </div>
-  </main>
-
-  <script src="./js/api.js"></script>
-  <script src="./js/charts.js"></script>
-  <script src="./js/ui.js"></script>
-  <script>
-    (async () => {
-      const [contractors, stocks] = await Promise.all([
-        window.api.getJSON('contractors.json'),
-        window.api.getJSON('stocks_timeseries.json'),
-      ]);
-      window.ui.renderContractorCards('cards', contractors);
-      window.charts.renderStocksMulti('stocksMulti', stocks);
-    })();
-  </script>
-</body>
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><title>GovTrends AI — Contractors</title><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script src="https://cdn.tailwindcss.com"></script><script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="./css/styles.css"/></head><body>
+<nav class="nav"><div class="container"><a href="./index.html" class="brand">GovTrends AI</a>
+<div class="links"><a href="./contractors.html" class="active">Contractors</a><a href="./trends.html">Gov Trends</a><a href="https://github.com/dyuyeda01/gov-trends">GitHub</a></div></div></nav>
+<main class="container" style="padding:2rem 1rem;"><h1 class="title">Major Government Contractors & Indices</h1><p class="subtitle">Includes SPY (S&P 500) and NASDAQ Composite for context.</p>
+<section class="card mt-6"><h2>Closing Prices (Recent)</h2><canvas id="stocksMulti"></canvas></section>
+<section class="card mt-6"><h2>Weekly % Change — Contractors & Indices</h2><div id="stocksTable"></div></section></main>
+<footer><p>Disclaimer: This website is a personal, non-commercial project built for educational and informational purposes only. All data shown is sourced from publicly available APIs and open government datasets. GovTrends AI makes no guarantees regarding accuracy, completeness, or timeliness of the information presented. Nothing on this site constitutes financial, legal, or professional advice. Use of this site and its data is at your own risk. No warranties are expressed or implied, and the developer assumes no liability for any damages or actions arising from its use.</p></footer>
+<script src="./js/api.js"></script><script src="./js/charts.js"></script>
+<script>(async()=>{const[stocks,meta]=await Promise.all([window.api.getJSON('stocks_timeseries.json'),window.api.getJSON('metadata.json').catch(()=>({}))]);window.charts.renderStocksMulti('stocksMulti',stocks);window.charts.renderStocksTable('stocksTable',meta);})();</script>
+</body></html>

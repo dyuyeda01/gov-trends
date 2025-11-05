@@ -1,8 +1,1 @@
-window.api = {
-  base: "./data/",
-  async getJSON(name) {
-    const res = await fetch(this.base + name, { cache: "no-store" });
-    if (!res.ok) throw new Error("Failed to fetch " + name);
-    return await res.json();
-  },
-};
+window.api={base:"./data/",async getJSON(n){const r=await fetch(this.base+n,{cache:"no-store"});if(!r.ok)throw new Error("Failed to fetch "+n);return await r.json();}};

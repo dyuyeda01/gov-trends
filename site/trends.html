@@ -1,51 +1,13 @@
-<!doctype html>
-<html lang="en" class="bg-slate-950">
-<head>
-  <meta charset="utf-8" />
-  <title>GovTrends AI — Government Trends</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body class="bg-slate-950 text-slate-100">
-  <nav class="nav">
-    <div class="container">
-      <a href="./index.html" class="brand">GovTrends AI</a>
-      <div class="links">
-        <a href="./contractors.html">Contractors</a>
-        <a href="./trends.html" class="active">Gov Trends</a>
-        <a href="https://github.com/dyuyeda01/gov-trends">GitHub</a>
-      </div>
-    </div>
-  </nav>
-
-  <main class="container py-8">
-    <h1 class="title">Budgets & Workforce</h1>
-
-    <section class="grid-2">
-      <div class="card">
-        <h2>Agency Budgets (Latest FY)</h2>
-        <canvas id="budgetsBar"></canvas>
-      </div>
-      <div class="card">
-        <h2>Government Employment (BLS)</h2>
-        <canvas id="workforceLine"></canvas>
-      </div>
-    </section>
-  </main>
-
-  <script src="./js/api.js"></script>
-  <script src="./js/charts.js"></script>
-  <script>
-    (async () => {
-      const [budgets, workforce] = await Promise.all([
-        window.api.getJSON('budgets_by_year.json'),
-        window.api.getJSON('workforce_timeseries.json'),
-      ]);
-      window.charts.renderBudgetsBar('budgetsBar', budgets);
-      window.charts.renderWorkforceLine('workforceLine', workforce);
-    })();
-  </script>
-</body>
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><title>GovTrends AI — Government Trends</title><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script src="https://cdn.tailwindcss.com"></script><script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="./css/styles.css"/></head><body>
+<nav class="nav"><div class="container"><a href="./index.html" class="brand">GovTrends AI</a>
+<div class="links"><a href="./contractors.html">Contractors</a><a href="./trends.html" class="active">Gov Trends</a><a href="https://github.com/dyuyeda01/gov-trends">GitHub</a></div></div></nav>
+<main class="container" style="padding:2rem 1rem;"><h1 class="title">Budgets & Workforce</h1>
+<section class="grid-2 mt-6"><div class="card"><h2>Top 10 Agencies by Latest Outlays (USAspending)</h2><canvas id="budgetsBar"></canvas><p class="subtitle" style="margin-top:.75rem">Source: <a href="https://api.usaspending.gov/" target="_blank" rel="noopener">USAspending.gov</a> (toptier agencies; latest fiscal year outlays).</p></div>
+<div class="card"><h2>Government Employment (BLS)</h2><canvas id="workforceLine"></canvas><p class="subtitle" style="margin-top:.75rem">Legend shows friendly labels: Federal, State, Local, Total (BLS series CEU9091/2/3/0).</p></div></section></main>
+<footer><p>Disclaimer: This website is a personal, non-commercial project built for educational and informational purposes only. All data shown is sourced from publicly available APIs and open government datasets. GovTrends AI makes no guarantees regarding accuracy, completeness, or timeliness of the information presented. Nothing on this site constitutes financial, legal, or professional advice. Use of this site and its data is at your own risk. No warranties are expressed or implied, and the developer assumes no liability for any damages or actions arising from its use.</p></footer>
+<script src="./js/api.js"></script><script src="./js/charts.js"></script>
+<script>(async()=>{const[budgets,workforce]=await Promise.all([window.api.getJSON('budgets_by_year.json'),window.api.getJSON('workforce_timeseries.json')]);window.charts.renderBudgetsBar('budgetsBar',budgets);window.charts.renderWorkforceLine('workforceLine',workforce);})();</script>
+</body></html>

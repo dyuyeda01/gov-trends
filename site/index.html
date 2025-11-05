@@ -1,53 +1,19 @@
-<!doctype html>
-<html lang="en" class="bg-slate-950">
-<head>
-  <meta charset="utf-8" />
-  <title>GovTrends AI — Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body class="bg-slate-950 text-slate-100">
-  <nav class="nav">
-    <div class="container">
-      <a href="./index.html" class="brand">GovTrends AI</a>
-      <div class="links">
-        <a href="./index.html" class="active">Home</a>
-        <a href="./contractors.html">Contractors</a>
-        <a href="./trends.html">Gov Trends</a>
-        <a href="https://github.com/dyuyeda01/gov-trends">GitHub</a>
-      </div>
-    </div>
-  </nav>
-
-  <main class="container py-8">
-    <h1 class="title">Weekly Government & Contractor Pulse</h1>
-    <p class="subtitle">Data-driven view of contractor stocks, agency budgets, and workforce trends.</p>
-
-    <section class="grid-2">
-      <div class="card">
-        <h2>Contractor Stock Performance</h2>
-        <canvas id="stocksLine"></canvas>
-      </div>
-      <div class="card">
-        <h2>Government Employment (BLS)</h2>
-        <canvas id="workforceLine"></canvas>
-      </div>
-    </section>
-  </main>
-
-  <script src="./js/api.js"></script>
-  <script src="./js/charts.js"></script>
-  <script>
-    (async () => {
-      const [stocks, workforce] = await Promise.all([
-        window.api.getJSON('stocks_timeseries.json'),
-        window.api.getJSON('workforce_timeseries.json'),
-      ]);
-      window.charts.renderStocksLine('stocksLine', stocks);
-      window.charts.renderWorkforceLine('workforceLine', workforce);
-    })();
-  </script>
-</body>
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><title>GovTrends AI — Home</title><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script src="https://cdn.tailwindcss.com"></script><script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="./css/styles.css"/></head><body>
+<nav class="nav"><div class="container"><a href="./index.html" class="brand">GovTrends AI</a>
+<div class="links"><a href="./index.html" class="active">Home</a><a href="./contractors.html">Contractors</a><a href="./trends.html">Gov Trends</a><a href="https://github.com/dyuyeda01/gov-trends">GitHub</a></div></div></nav>
+<main class="container" style="padding:2rem 1rem;">
+<h1 class="title">Weekly Government & Contractor Pulse</h1>
+<p class="subtitle">Transparent, data-driven insights from open public sources.</p>
+<section class="card info-card mt-6"><p><strong>GovTrends AI</strong> provides a clear, up-to-date view of U.S. government budgets, workforce, and major contractor performance. Updated automatically each day at <strong>11:00 UTC</strong> via GitHub Actions using data from <em>Yahoo Finance</em>, <em>USAspending.gov</em>, and the <em>Bureau of Labor Statistics</em>.</p></section>
+<section class="grid-2 mt-6"><div class="card"><div class="kpi"><span class="value" id="lastUpdated">Last updated: —</span></div></div>
+<div class="card"><div class="badges" id="trendBadges"></div></div></section>
+<section class="grid-2 mt-6"><div class="card"><h2>Average Contractor & Index Performance</h2><canvas id="stocksLine"></canvas></div>
+<div class="card"><h2>Government Employment (BLS)</h2><canvas id="workforceLine"></canvas></div></section>
+<section class="card mt-6"><h2 class="mb-2">Weekly % Change — Contractors & Indices</h2><div id="stocksTable"></div></section></main>
+<footer><p>Disclaimer: This website is a personal, non-commercial project built for educational and informational purposes only. All data shown is sourced from publicly available APIs and open government datasets. GovTrends AI makes no guarantees regarding accuracy, completeness, or timeliness of the information presented. Nothing on this site constitutes financial, legal, or professional advice. Use of this site and its data is at your own risk. No warranties are expressed or implied, and the developer assumes no liability for any damages or actions arising from its use.</p></footer>
+<script src="./js/api.js"></script><script src="./js/charts.js"></script>
+<script>(async()=>{const[stocks,workforce,meta]=await Promise.all([window.api.getJSON('stocks_timeseries.json'),window.api.getJSON('workforce_timeseries.json'),window.api.getJSON('metadata.json').catch(()=>({}))]);window.charts.renderStocksLine('stocksLine',stocks);window.charts.renderWorkforceLine('workforceLine',workforce);window.charts.renderLastUpdated('lastUpdated',meta);window.charts.renderBadges('trendBadges',meta);window.charts.renderStocksTable('stocksTable',meta);})();</script>
+</body></html>

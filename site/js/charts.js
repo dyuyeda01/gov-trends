@@ -1,70 +1,9 @@
-function groupBy(arr, key) {
-  return arr.reduce((acc, x) => {
-    const k = x[key];
-    (acc[k] ||= []).push(x);
-    return acc;
-  }, {});
-}
-
-window.charts = {
-  renderStocksLine(canvasId, rows) {
-    const byDate = {};
-    rows.forEach(r => {
-      (byDate[r.date] ||= []).push(r.close);
-    });
-    const labels = Object.keys(byDate).sort();
-    const data = labels.map(d => {
-      const vals = byDate[d];
-      return vals.reduce((a,b)=>a+b,0)/vals.length;
-    });
-    new Chart(document.getElementById(canvasId), {
-      type: "line",
-      data: { labels, datasets: [{ label: "Avg Close", data, borderWidth: 2 }] },
-      options: { responsive: true }
-    });
-  },
-
-  renderStocksMulti(canvasId, rows) {
-    const byTicker = groupBy(rows, "ticker");
-    const labels = [...new Set(rows.map(r => r.date))].sort();
-    const datasets = Object.entries(byTicker).map(([ticker, series]) => {
-      const map = Object.fromEntries(series.map(s => [s.date, s.close]));
-      return { label: ticker, data: labels.map(d => map[d] ?? null), borderWidth: 1 };
-    });
-    new Chart(document.getElementById(canvasId), {
-      type: "line",
-      data: { labels, datasets },
-      options: { responsive: true }
-    });
-  },
-
-  renderWorkforceLine(canvasId, rows) {
-    const series = groupBy(rows, "series_id");
-    const labels = [...new Set(rows.map(r => r.date))].sort();
-    const datasets = Object.entries(series).map(([sid, vals]) => {
-      const map = Object.fromEntries(vals.map(v => [v.date, v.value]));
-      return { label: sid, data: labels.map(d => map[d] ?? null), borderWidth: 2 };
-    });
-    new Chart(document.getElementById(canvasId), {
-      type: "line",
-      data: { labels, datasets },
-      options: { responsive: true }
-    });
-  },
-
-  renderBudgetsBar(canvasId, rows) {
-    const byAgency = groupBy(rows, "agency_name");
-    const latest = Object.values(byAgency).map(a => a.sort((x,y)=>x.fiscal_year-y.fiscal_year).at(-1));
-    const top = latest
-      .filter(Boolean)
-      .sort((a,b)=> (b.outlay_amount||0) - (a.outlay_amount||0))
-      .slice(0,15);
-    const labels = top.map(x => x.agency_name);
-    const data = top.map(x => Math.round((x.outlay_amount || 0) / 1e9)); // billions
-    new Chart(document.getElementById(canvasId), {
-      type: "bar",
-      data: { labels, datasets: [{ label: "Outlays (B$)", data }] },
-      options: { indexAxis: "y", responsive: true }
-    });
-  }
-};
+function groupBy(a,k){return a.reduce((o,x)=>(o[x[k]]||(o[x[k]]=[])).push(x),{});}function toPct(n){if(null==n)return"—";const s=(n>=0?"+":"")+n.toFixed(2)+"%";return s;}
+const FRIENDLY_SERIES={"CEU9090000001":"Government Total","CEU9091000001":"Federal Government","CEU9092000001":"State Government","CEU9093000001":"Local Government"};
+window.charts={renderLastUpdated(e,m){const t=document.getElementById(e);if(!(null!=m&&m.last_updated)){t.textContent="—";return}const d=new Date(m.last_updated);const o={month:"short",day:"numeric",year:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"UTC",hour12:!1};t.textContent=`Last updated: ${d.toLocaleString("en-US",o)} UTC`},
+renderBadges(i,m){const e=document.getElementById(i);if(!e||!m?.trends)return;const n=(l,v)=>{const s=(v||"same").toLowerCase();const c=s==="good"?"badge badge-good":s==="bad"?"badge badge-bad":"badge badge-same";const p=document.createElement("span");p.className=c;p.textContent=`${l}: ${v}`;return p};e.innerHTML="";e.appendChild(n("Stocks",m.trends.stocks||"Same"));e.appendChild(n("Budgets",m.trends.budgets||"Same"));e.appendChild(n("Workforce",m.trends.workforce||"Same"))},
+renderStocksLine(c,rows){const byDate={};rows.forEach(r=>{if(!r.close)return;(byDate[r.date]||(byDate[r.date]=[])).push(r.close)});const labels=Object.keys(byDate).sort();const data=labels.map(d=>{const vals=byDate[d];return vals.reduce((a,b)=>a+b,0)/vals.length});new Chart(document.getElementById(c),{type:"line",data:{labels,datasets:[{label:"Avg Close (Contractors+Indexes)",data,borderWidth:2}]},options:{responsive:!0}})},
+renderStocksTable(id,meta){const el=document.getElementById(id);if(!meta?.stock_weekly||!el)return;const rows=meta.stock_weekly;const tbl=document.createElement("table");tbl.className="w-full text-sm";tbl.innerHTML=`<thead><tr><th class="text-left">Name</th><th class="text-left">Ticker</th><th class="text-left">Type</th><th class="text-right">% Weekly</th></tr></thead><tbody></tbody>`;const tbody=tbl.querySelector("tbody");rows.forEach(r=>{const tr=document.createElement("tr");tr.innerHTML=`<td>${r.name}</td><td>${r.ticker}</td><td>${r.sector||""}</td><td class="text-right" style="color:${r.pct_change>=0?"#16a34a":"#dc2626"}">${toPct(r.pct_change)}</td>`;tbody.appendChild(tr)});el.innerHTML="";el.appendChild(tbl)},
+renderStocksMulti(c,rows){const byTicker=groupBy(rows,"ticker");const labels=[...new Set(rows.map(r=>r.date))].sort();const datasets=Object.entries(byTicker).map(([ticker,series])=>{const map=Object.fromEntries(series.map(s=>[s.date,s.close]));return{label:ticker,data:labels.map(d=>map[d]??null),borderWidth:1}});new Chart(document.getElementById(c),{type:"line",data:{labels,datasets},options:{responsive:!0}})},
+renderWorkforceLine(c,rows){const series=groupBy(rows,"series_id");const labels=[...new Set(rows.map(r=>r.date))].sort();const datasets=Object.entries(series).map(([sid,vals])=>{const map=Object.fromEntries(vals.map(v=>[v.date,v.value]));const label=FRIENDLY_SERIES[sid]||sid;return{label,data:labels.map(d=>map[d]??null),borderWidth:2}});new Chart(document.getElementById(c),{type:"line",data:{labels,datasets},options:{responsive:!0}})},
+renderBudgetsBar(c,rows){const byAgency=groupBy(rows,"agency_name");const latest=Object.values(byAgency).map(a=>a.sort((x,y)=>x.fiscal_year-y.fiscal_year).at(-1));const top=latest.filter(Boolean).sort((a,b)=>(b.outlay_amount||0)-(a.outlay_amount||0)).slice(0,10);const labels=top.map(x=>x.agency_name);const data=top.map(x=>Math.round((x.outlay_amount||0)/1e9));new Chart(document.getElementById(c),{type:"bar",data:{labels,datasets:[{label:"Outlays (B$)",data}]},options:{indexAxis:"y",responsive:!0}})}};
