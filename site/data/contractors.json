@@ -24,6 +24,12 @@
     "sector": "Defense"
   },
   {
+    "id": 9,
+    "name": "NASDAQ",
+    "ticker": "^IXIC",
+    "sector": "Index"
+  },
+  {
     "id": 6,
     "name": "Northrop Grumman",
     "ticker": "NOC",
@@ -40,5 +46,11 @@
     "name": "SAIC",
     "ticker": "SAIC",
     "sector": "Defense/IT"
+  },
+  {
+    "id": 8,
+    "name": "SPDR S&P 500",
+    "ticker": "SPY",
+    "sector": "Index"
   }
 ]

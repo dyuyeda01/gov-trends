@@ -1,12 +1,20 @@
-from .fetch_stocks import run as stocks
-from .fetch_bls import run as bls
-from .fetch_usaspending import run as budgets
-from .build_site_data import run as build
+"""
+run_all.py — master orchestrator to run all ETL tasks
+"""
+
+from etl import fetch_stocks, fetch_bls, fetch_usaspending, build_site_data
 
 if __name__ == "__main__":
-    # Each fetch function is idempotent and uses INSERT OR IGNORE to avoid dupes
-    stocks()
-    bls()
-    budgets()
-    build()
-    print("ETL complete. JSON exported to site/data/")
+    print("=== Fetching stock data ===")
+    fetch_stocks.run()
+
+    print("=== Fetching workforce data ===")
+    fetch_bls.run()
+
+    print("=== Fetching budget data ===")
+    fetch_usaspending.run()
+
+    print("=== Building site JSON files ===")
+    build_site_data.run()
+
+    print("✅ ETL complete. Data exported to /site/data/")
