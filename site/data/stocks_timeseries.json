@@ -3521,6 +3521,13 @@
     "close": 343.4700012207031
   },
   {
+    "name": "General Dynamics",
+    "ticker": "GD",
+    "sector": "Defense",
+    "date": "2025-11-05",
+    "close": 342.9100036621094
+  },
+  {
     "name": "Leidos",
     "ticker": "LDOS",
     "sector": "Defense/Cyber",
@@ -7042,6 +7049,13 @@
     "close": 484.9800109863281
   },
   {
+    "name": "Lockheed Martin",
+    "ticker": "LMT",
+    "sector": "Defense",
+    "date": "2025-11-05",
+    "close": 473.1400146484375
+  },
+  {
     "name": "NASDAQ",
     "ticker": "^IXIC",
     "sector": "Index",
@@ -8790,6 +8804,13 @@
     "sector": "Index",
     "date": "2025-11-04",
     "close": 23348.640625
+  },
+  {
+    "name": "NASDAQ",
+    "ticker": "^IXIC",
+    "sector": "Index",
+    "date": "2025-11-05",
+    "close": 23499.80078125
   },
   {
     "name": "Northrop Grumman",
@@ -10542,6 +10563,13 @@
     "close": 577.1400146484375
   },
   {
+    "name": "Northrop Grumman",
+    "ticker": "NOC",
+    "sector": "Defense",
+    "date": "2025-11-05",
+    "close": 570.5
+  },
+  {
     "name": "RTX",
     "ticker": "RTX",
     "sector": "Defense",
@@ -12290,6 +12318,13 @@
     "sector": "Defense",
     "date": "2025-11-04",
     "close": 175.61000061035156
+  },
+  {
+    "name": "RTX",
+    "ticker": "RTX",
+    "sector": "Defense",
+    "date": "2025-11-05",
+    "close": 174.0
   },
   {
     "name": "SAIC",
@@ -15811,5 +15846,12 @@
     "sector": "Index",
     "date": "2025-11-04",
     "close": 675.239990234375
+  },
+  {
+    "name": "SPDR S&P 500",
+    "ticker": "SPY",
+    "sector": "Index",
+    "date": "2025-11-05",
+    "close": 677.5800170898438
   }
 ]

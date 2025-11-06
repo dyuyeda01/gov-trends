@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-05T11:16:27Z",
+  "last_updated": "2025-11-06T11:16:26Z",
   "trends": {
     "stocks": "Good",
     "budgets": "Same",
@@ -25,40 +25,40 @@
       "pct_change": -35.31789824622063
     },
     {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": -2.5116873593412383
+    },
+    {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": -3.009826655229263
+      "pct_change": -2.476963790195729
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": -2.009651896464455
+      "pct_change": -1.914437392763862
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": -1.7203748386196385
+      "pct_change": -1.4271370473152754
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": -1.7126532657711806
+      "pct_change": -1.338172262522118
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": -0.9259234807011614
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": -0.1626238848035374
+      "pct_change": -0.1659506538915997
     }
   ]
 }
