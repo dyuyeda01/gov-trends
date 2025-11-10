@@ -46,3 +46,12 @@ python -m etl.run_all   # build db + export JSON
   or wait for the scheduled GitHub Action to populate data.
 - All asset paths are **relative** (`./...`) to support the `/gov-trends/` subfolder.
 
+---
+⚠️ Disclaimer
+
+This project is a personal side project created for educational and experimental purposes only.
+All ideas and implementations are original and independently developed by the author, with assistance from ChatGPT for code generation and formatting.
+All data used in this project is sourced entirely from publicly available and open sources.
+Nothing in this repository is proprietary, affiliated with, or represents the author’s employer, clients, or business entities.
+This project is not used for advertising, commercial services, or any official work-related purpose.
+
