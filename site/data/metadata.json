@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-12T11:16:13Z",
+  "last_updated": "2025-11-13T11:16:51Z",
   "trends": {
     "stocks": "Bad",
     "budgets": "Same",
@@ -10,55 +10,55 @@
       "ticker": "LDOS",
       "name": "Leidos",
       "sector": "Defense/Cyber",
-      "pct_change": 63.16872427983539
+      "pct_change": 56.67208138998452
     },
     {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": -41.87583464965006
+      "pct_change": -43.80794803038338
     },
     {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -31.524661624378158
+      "pct_change": -33.15088960546008
     },
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": -5.754877114491256
-    },
-    {
-      "ticker": "GD",
-      "name": "General Dynamics",
-      "sector": "Defense",
-      "pct_change": 2.6057624174520706
+      "pct_change": -3.4027995107280433
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": 2.055691929733281
+      "pct_change": 2.120691058279454
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": -1.8019933032017599
+      "pct_change": -2.091146831863497
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Defense",
+      "pct_change": 1.9072084439292571
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": 1.1492224805778328
+      "pct_change": 0.8559856617199648
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": 0.5124930319150004
+      "pct_change": -0.3971941916395901
     }
   ]
 }
