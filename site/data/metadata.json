@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-19T11:16:10Z",
+  "last_updated": "2025-11-20T11:16:37Z",
   "trends": {
     "stocks": "Bad",
     "budgets": "Same",
@@ -10,55 +10,55 @@
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": -7.017343093794412
+      "pct_change": -5.209190628675609
     },
     {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -4.8788485993249795
-    },
-    {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": -4.610340171323298
+      "pct_change": -5.111745140059496
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": -4.412126730122164
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": 3.8615515377635576
+      "pct_change": -3.5982819914506776
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": -3.3557808067578696
+      "pct_change": -3.036377981758225
     },
     {
-      "ticker": "GD",
-      "name": "General Dynamics",
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": -3.1581648200279546
+      "pct_change": 2.8159449668666205
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": -2.5108804649869456
+      "pct_change": -2.206088195782395
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": -1.9894371110153166
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Defense",
+      "pct_change": -1.8285919087768534
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 0.0035324013824612824
+      "pct_change": 1.1511525129291444
     }
   ]
 }
