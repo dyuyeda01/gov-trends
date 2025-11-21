@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-20T11:16:37Z",
+  "last_updated": "2025-11-21T11:15:45Z",
   "trends": {
     "stocks": "Bad",
     "budgets": "Same",
@@ -7,58 +7,58 @@
   },
   "stock_weekly": [
     {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Consulting/Defense",
-      "pct_change": -5.209190628675609
-    },
-    {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -5.111745140059496
+      "pct_change": -5.133353914506849
+    },
+    {
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Consulting/Defense",
+      "pct_change": -5.1181541449374786
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": -3.5982819914506776
-    },
-    {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
-      "sector": "Index",
-      "pct_change": -3.036377981758225
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": 2.8159449668666205
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX",
-      "sector": "Defense",
-      "pct_change": -2.206088195782395
+      "pct_change": -3.4643469337700337
     },
     {
       "ticker": "LDOS",
       "name": "Leidos",
       "sector": "Defense/Cyber",
-      "pct_change": -1.9894371110153166
+      "pct_change": -2.9583961140654256
     },
     {
-      "ticker": "GD",
-      "name": "General Dynamics",
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": -2.9030934718700525
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": -1.8285919087768534
+      "pct_change": 2.7223875169349627
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 1.1511525129291444
+      "pct_change": 1.6756228648633513
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Defense",
+      "pct_change": -1.3427876387753304
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": -0.7070653821894081
     }
   ]
 }
