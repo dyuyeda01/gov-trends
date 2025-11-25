@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-24T11:16:54Z",
+  "last_updated": "2025-11-25T11:16:38Z",
   "trends": {
     "stocks": "Bad",
     "budgets": "Same",
@@ -7,58 +7,58 @@
   },
   "stock_weekly": [
     {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": -4.1887933369803
+    },
+    {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -3.8930314496856426
+      "pct_change": -2.307951075158606
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": -3.354795467747873
-    },
-    {
-      "ticker": "^IXIC",
-      "name": "NASDAQ",
-      "sector": "Index",
-      "pct_change": -2.7401467381691007
-    },
-    {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": -2.570397614970242
+      "pct_change": -1.377895633812704
     },
     {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": -2.5690565537701593
-    },
-    {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
-      "sector": "Index",
-      "pct_change": -1.9198374115636068
-    },
-    {
-      "ticker": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Defense",
-      "pct_change": 1.5591419725862457
+      "pct_change": -1.1021326053362783
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": -1.1358035329293754
+      "pct_change": -1.0679366579439145
     },
     {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": -1.0487821378001496
+    },
+    {
+      "ticker": "^IXIC",
+      "name": "NASDAQ",
+      "sector": "Index",
+      "pct_change": 0.7219435683830742
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": 0.45968687745482284
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": -1.0713421542985089
+      "pct_change": 0.4493487256582448
     }
   ]
 }
