@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-26T11:16:56Z",
+  "last_updated": "2025-11-27T11:17:08Z",
   "trends": {
     "stocks": "Same",
     "budgets": "Same",
@@ -7,58 +7,58 @@
   },
   "stock_weekly": [
     {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": -4.6996118767326935
-    },
-    {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": 3.3226315116426015
+      "pct_change": 3.5061540272588414
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": -3.3517056196413937
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": 2.6422868458373903
+      "pct_change": 2.8826996128932634
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": 2.2633623279907233
-    },
-    {
-      "ticker": "SAIC",
-      "name": "SAIC",
-      "sector": "Defense/IT",
-      "pct_change": -1.6982252794271169
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX",
-      "sector": "Defense",
-      "pct_change": -1.4709290901230956
-    },
-    {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": 1.2638143841863079
-    },
-    {
-      "ticker": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Defense",
-      "pct_change": 0.46932971605234486
+      "pct_change": 2.573078138226487
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": -0.06446166462390522
+      "pct_change": -0.8803092855954646
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": 0.6237488002193884
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "sector": "Defense",
+      "pct_change": 0.373448734789823
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": -0.33377557506719024
+    },
+    {
+      "ticker": "SAIC",
+      "name": "SAIC",
+      "sector": "Defense/IT",
+      "pct_change": -0.08162277644655799
     }
   ]
 }
