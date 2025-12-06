@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T11:18:04Z",
+  "last_updated": "2025-12-06T11:14:17Z",
   "trends": {
     "stocks": "Good",
     "budgets": "Same",
@@ -10,55 +10,55 @@
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": 18.788654470082516
+      "pct_change": 16.703400624989104
     },
     {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": 5.285287118172861
+      "pct_change": 5.451717111993498
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": -2.4880509453233213
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": -1.2792842856581295
-    },
-    {
-      "ticker": "^IXIC",
-      "name": "NASDAQ",
-      "sector": "Index",
-      "pct_change": 1.2511525190180888
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX",
-      "sector": "Defense",
-      "pct_change": -1.0855158244186436
+      "pct_change": -4.068157151048492
     },
     {
       "ticker": "LDOS",
       "name": "Leidos",
       "sector": "Defense/Cyber",
-      "pct_change": 1.0821588316814335
+      "pct_change": -2.2396643864984873
     },
     {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
-      "sector": "Index",
-      "pct_change": 0.6929764041036014
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": -2.1782616653269824
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": 0.4881789261248286
+      "pct_change": -1.264528074956595
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": -1.23617990774741
+    },
+    {
+      "ticker": "^IXIC",
+      "name": "NASDAQ",
+      "sector": "Index",
+      "pct_change": 0.9092023870136109
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": 0.33655566275020177
     }
   ]
 }
