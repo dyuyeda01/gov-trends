@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-24T11:17:36Z",
+  "last_updated": "2025-12-25T11:16:54Z",
   "trends": {
     "stocks": "Good",
     "budgets": "Same",
@@ -10,55 +10,55 @@
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": 3.2401500963543426
-    },
-    {
-      "ticker": "SAIC",
-      "name": "SAIC",
-      "sector": "Defense/IT",
-      "pct_change": 2.3019484037002753
-    },
-    {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": 2.2837085960021235
-    },
-    {
-      "ticker": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Defense",
-      "pct_change": 1.9939561541066944
+      "pct_change": 5.180591474418407
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": 1.9487253855044189
+      "pct_change": 4.0540133471268565
     },
     {
-      "ticker": "GD",
-      "name": "General Dynamics",
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 1.8815390936797172
+      "pct_change": 3.21876904339815
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": 2.905825019147105
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": 1.3389937573982211
+      "pct_change": 2.8269257936524532
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Defense",
+      "pct_change": 2.669365027369299
     },
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": 1.1507966005262693
+      "pct_change": 2.3083871306953068
     },
     {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": -0.878220124823682
+      "pct_change": -1.617563808798124
+    },
+    {
+      "ticker": "SAIC",
+      "name": "SAIC",
+      "sector": "Defense/IT",
+      "pct_change": 0.3514258119600066
     }
   ]
 }
