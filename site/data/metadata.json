@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-29T11:17:50Z",
+  "last_updated": "2025-12-30T11:17:56Z",
   "trends": {
     "stocks": "Good",
     "budgets": "Same",
@@ -7,58 +7,58 @@
   },
   "stock_weekly": [
     {
-      "ticker": "RTX",
-      "name": "RTX",
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": 3.8588844814027032
+      "pct_change": 3.108849910905382
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 3.190230011946973
+      "pct_change": 1.6395185173931293
     },
     {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
+      "ticker": "RTX",
+      "name": "RTX",
       "sector": "Defense",
-      "pct_change": 2.741733043186779
-    },
-    {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": 2.577403888746847
-    },
-    {
-      "ticker": "^IXIC",
-      "name": "NASDAQ",
-      "sector": "Index",
-      "pct_change": 2.5503393423149987
-    },
-    {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
-      "sector": "Index",
-      "pct_change": 2.0459188810825384
+      "pct_change": 1.324105123259514
     },
     {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": 1.9555303379767321
+      "pct_change": 1.323527915804994
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": 1.0667139458407735
+    },
+    {
+      "ticker": "^IXIC",
+      "name": "NASDAQ",
+      "sector": "Index",
+      "pct_change": 0.7153474910673742
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": 0.43860344894254305
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": 1.4406877102923414
+      "pct_change": 0.33004057140246695
     },
     {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": -0.7208495886327435
+      "pct_change": -0.16420289249435288
     }
   ]
 }
