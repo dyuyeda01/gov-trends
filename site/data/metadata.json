@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-14T11:19:39Z",
+  "last_updated": "2026-01-15T11:18:26Z",
   "trends": {
     "stocks": "Good",
     "budgets": "Same",
@@ -10,55 +10,55 @@
       "ticker": "LMT",
       "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": 6.945830068923524
-    },
-    {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Consulting/Defense",
-      "pct_change": 5.852950454776815
-    },
-    {
-      "ticker": "SAIC",
-      "name": "SAIC",
-      "sector": "Defense/IT",
-      "pct_change": 3.62131865946493
+      "pct_change": 15.261540812493443
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 2.4385475189804637
+      "pct_change": 13.19387941185555
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": 1.9327773385176887
+      "pct_change": 7.058633991239402
     },
     {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": -0.7797434360166139
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Consulting/Defense",
+      "pct_change": 6.747170611295713
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": 0.7180273347690665
+      "pct_change": 5.890517442626355
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": -2.944912907867601
+    },
+    {
+      "ticker": "SAIC",
+      "name": "SAIC",
+      "sector": "Defense/IT",
+      "pct_change": 1.14189560325776
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": 0.6909502045885125
+      "pct_change": -0.47713689046207375
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": 0.2833179600718683
+      "pct_change": 0.11310772388828225
     }
   ]
 }
