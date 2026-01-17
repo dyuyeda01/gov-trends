@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-16T11:18:02Z",
+  "last_updated": "2026-01-17T11:15:34Z",
   "trends": {
     "stocks": "Good",
     "budgets": "Same",
@@ -7,58 +7,58 @@
   },
   "stock_weekly": [
     {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": 11.467095889027245
-    },
-    {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 10.802486449975788
+      "pct_change": 7.769628732228943
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": 7.277317286028725
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": 6.763906494609287
+      "pct_change": 7.119362423843667
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": 4.908376929252953
-    },
-    {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Consulting/Defense",
-      "pct_change": 3.067288635327902
+      "pct_change": 3.8119160405744332
     },
     {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -1.1877136910019
+      "pct_change": -2.534642584401601
     },
     {
       "ticker": "LDOS",
       "name": "Leidos",
       "sector": "Defense/Cyber",
-      "pct_change": -0.9527715391461176
+      "pct_change": -1.835232155317458
     },
     {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
-      "sector": "Index",
-      "pct_change": 0.39593050573376914
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Consulting/Defense",
+      "pct_change": 1.2684562454066373
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": 0.21294701196246474
+      "pct_change": -0.6588512566821821
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": -0.34723214578579364
     }
   ]
 }
