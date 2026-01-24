@@ -2135,6 +2135,13 @@
     "close": 95.76000213623047
   },
   {
+    "name": "Booz Allen Hamilton",
+    "ticker": "BAH",
+    "sector": "Consulting/Defense",
+    "date": "2026-01-23",
+    "close": 102.2300033569336
+  },
+  {
     "name": "General Dynamics",
     "ticker": "GD",
     "sector": "Defense",
@@ -4254,6 +4261,13 @@
     "sector": "Defense",
     "date": "2026-01-22",
     "close": 365.8299865722656
+  },
+  {
+    "name": "General Dynamics",
+    "ticker": "GD",
+    "sector": "Defense",
+    "date": "2026-01-23",
+    "close": 363.2699890136719
   },
   {
     "name": "Leidos",
@@ -6391,6 +6405,13 @@
     "close": 193.4499969482422
   },
   {
+    "name": "Leidos",
+    "ticker": "LDOS",
+    "sector": "Defense/Cyber",
+    "date": "2026-01-23",
+    "close": 191.22999572753906
+  },
+  {
     "name": "Lockheed Martin",
     "ticker": "LMT",
     "sector": "Defense",
@@ -8510,6 +8531,13 @@
     "sector": "Defense",
     "date": "2026-01-22",
     "close": 593.9099731445312
+  },
+  {
+    "name": "Lockheed Martin",
+    "ticker": "LMT",
+    "sector": "Defense",
+    "date": "2026-01-23",
+    "close": 590.8200073242188
   },
   {
     "name": "NASDAQ",
@@ -10633,6 +10661,13 @@
     "close": 23436.01953125
   },
   {
+    "name": "NASDAQ",
+    "ticker": "^IXIC",
+    "sector": "Index",
+    "date": "2026-01-23",
+    "close": 23501.240234375
+  },
+  {
     "name": "Northrop Grumman",
     "ticker": "NOC",
     "sector": "Defense",
@@ -12754,6 +12789,13 @@
     "close": 670.4400024414062
   },
   {
+    "name": "Northrop Grumman",
+    "ticker": "NOC",
+    "sector": "Defense",
+    "date": "2026-01-23",
+    "close": 672.9500122070312
+  },
+  {
     "name": "RTX",
     "ticker": "RTX",
     "sector": "Defense",
@@ -14873,6 +14915,13 @@
     "sector": "Defense",
     "date": "2026-01-22",
     "close": 196.33999633789062
+  },
+  {
+    "name": "RTX",
+    "ticker": "RTX",
+    "sector": "Defense",
+    "date": "2026-01-23",
+    "close": 195.92999267578125
   },
   {
     "name": "SAIC",
@@ -17010,6 +17059,13 @@
     "close": 109.06999969482422
   },
   {
+    "name": "SAIC",
+    "ticker": "SAIC",
+    "sector": "Defense/IT",
+    "date": "2026-01-23",
+    "close": 110.13999938964844
+  },
+  {
     "name": "SPDR S&P 500",
     "ticker": "SPY",
     "sector": "Index",
@@ -19129,5 +19185,12 @@
     "sector": "Index",
     "date": "2026-01-22",
     "close": 688.97998046875
+  },
+  {
+    "name": "SPDR S&P 500",
+    "ticker": "SPY",
+    "sector": "Index",
+    "date": "2026-01-23",
+    "close": 689.22998046875
   }
 ]
