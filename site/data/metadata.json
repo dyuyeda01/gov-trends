@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-28T11:21:31Z",
+  "last_updated": "2026-01-29T11:29:20Z",
   "trends": {
-    "stocks": "Same",
+    "stocks": "Bad",
     "budgets": "Same",
     "workforce": "Same"
   },
@@ -10,55 +10,55 @@
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -4.1943837815309015
+      "pct_change": -4.772847998869553
     },
     {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": -4.17290986955172
-    },
-    {
-      "ticker": "^IXIC",
-      "name": "NASDAQ",
-      "sector": "Index",
-      "pct_change": 3.7586793471953297
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": 3.279174865204229
+      "pct_change": -4.677201250368118
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 3.2618291251451015
+      "pct_change": 3.7596411629653255
     },
     {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
+      "ticker": "^IXIC",
+      "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": 2.643226289561086
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX",
-      "sector": "Defense",
-      "pct_change": 2.5056010153047144
-    },
-    {
-      "ticker": "GD",
-      "name": "General Dynamics",
-      "sector": "Defense",
-      "pct_change": 2.0742215137489683
+      "pct_change": 2.7239345568133766
     },
     {
       "ticker": "LDOS",
       "name": "Leidos",
       "sector": "Defense/Cyber",
-      "pct_change": -1.9746513244384472
+      "pct_change": -2.2642051609845173
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Defense",
+      "pct_change": -2.2205181563193044
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": 1.88322662271083
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": 1.4619139391860472
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": 0.9924084627175632
     }
   ]
 }
