@@ -1,64 +1,64 @@
 {
-  "last_updated": "2026-02-02T11:34:14Z",
+  "last_updated": "2026-02-03T11:32:42Z",
   "trends": {
-    "stocks": "Bad",
+    "stocks": "Same",
     "budgets": "Same",
     "workforce": "Same"
   },
   "stock_weekly": [
     {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Consulting/Defense",
-      "pct_change": -13.508759399890637
-    },
-    {
-      "ticker": "SAIC",
-      "name": "SAIC",
-      "sector": "Defense/IT",
-      "pct_change": -7.608495823367116
-    },
-    {
       "ticker": "LMT",
       "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": 7.345716604192461
+      "pct_change": 9.342232466452751
+    },
+    {
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Consulting/Defense",
+      "pct_change": -6.845523564659747
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": -3.352876109818928
+      "pct_change": -4.723005178015424
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 2.8694549681727444
+      "pct_change": 3.6385993152670917
     },
     {
       "ticker": "RTX",
       "name": "RTX",
       "sector": "Defense",
-      "pct_change": 2.551931907777816
+      "pct_change": 3.5852219028581165
+    },
+    {
+      "ticker": "SAIC",
+      "name": "SAIC",
+      "sector": "Defense/IT",
+      "pct_change": -3.353132872290233
     },
     {
       "ticker": "LDOS",
       "name": "Leidos",
       "sector": "Defense/Cyber",
-      "pct_change": -1.5426434210903233
+      "pct_change": -0.7704520917504948
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": 0.3975436809222248
+      "pct_change": 0.3868740708995701
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": -0.16773549600731677
+      "pct_change": -0.03919265773224132
     }
   ]
 }
