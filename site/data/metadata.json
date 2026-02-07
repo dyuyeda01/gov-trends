@@ -1,64 +1,64 @@
 {
-  "last_updated": "2026-02-06T11:32:12Z",
+  "last_updated": "2026-02-07T11:19:54Z",
   "trends": {
-    "stocks": "Bad",
+    "stocks": "Same",
     "budgets": "Same",
     "workforce": "Same"
   },
   "stock_weekly": [
     {
-      "ticker": "^IXIC",
-      "name": "NASDAQ",
-      "sector": "Index",
-      "pct_change": -4.832271647356376
-    },
-    {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Consulting/Defense",
-      "pct_change": -4.74473859415019
-    },
-    {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -4.591935407158368
-    },
-    {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
-      "sector": "Index",
-      "pct_change": -2.3658554881559484
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Defense",
-      "pct_change": -2.141333774674965
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX",
-      "sector": "Defense",
-      "pct_change": -1.9561754885896505
+      "pct_change": -3.341196397900207
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": 0.600078729157223
+      "pct_change": 2.5577518812828037
     },
     {
       "ticker": "LDOS",
       "name": "Leidos",
       "sector": "Defense/Cyber",
-      "pct_change": -0.592980712577859
+      "pct_change": 2.501596953688262
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 0.1653878556756158
+      "pct_change": 2.434053007285848
+    },
+    {
+      "ticker": "^IXIC",
+      "name": "NASDAQ",
+      "sector": "Index",
+      "pct_change": -1.8353621725189828
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": -1.6776440517136848
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": -1.1297412513893375
+    },
+    {
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Consulting/Defense",
+      "pct_change": 0.6672743491329048
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": -0.1950916431482947
     }
   ]
 }
