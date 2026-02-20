@@ -1,64 +1,64 @@
 {
-  "last_updated": "2026-02-19T11:36:26Z",
+  "last_updated": "2026-02-20T11:30:42Z",
   "trends": {
-    "stocks": "Bad",
+    "stocks": "Good",
     "budgets": "Same",
     "workforce": "Same"
   },
   "stock_weekly": [
     {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Consulting/Defense",
-      "pct_change": -12.962753116516593
-    },
-    {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": -11.909409560408646
-    },
-    {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": -9.538395131274363
+      "pct_change": 10.70298624630454
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 5.814601035013686
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX",
-      "sector": "Defense",
-      "pct_change": 4.928528611538549
+      "pct_change": 8.550001703837754
     },
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": 3.216532193679493
+      "pct_change": 6.013996631853556
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": 4.529036386983277
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": -2.6029029588946075
+      "pct_change": 2.3098689393630325
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": 1.890175880035224
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": -1.5099676923421594
+      "pct_change": -1.663627866238816
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": -0.8423419538481374
+      "pct_change": -1.0809933040035995
+    },
+    {
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Consulting/Defense",
+      "pct_change": 0.18799539310409452
     }
   ]
 }
