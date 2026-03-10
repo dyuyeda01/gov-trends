@@ -1,64 +1,64 @@
 {
-  "last_updated": "2026-03-09T11:33:27Z",
+  "last_updated": "2026-03-10T11:31:12Z",
   "trends": {
-    "stocks": "Good",
+    "stocks": "Same",
     "budgets": "Same",
     "workforce": "Same"
   },
   "stock_weekly": [
     {
-      "ticker": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Defense",
-      "pct_change": 4.383058586098936
-    },
-    {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton",
       "sector": "Consulting/Defense",
-      "pct_change": 3.8817677121863
+      "pct_change": 4.6523619845329485
     },
     {
-      "ticker": "RTX",
-      "name": "RTX",
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": 3.5238375094812042
+      "pct_change": -2.692637190421545
     },
     {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": 3.4034243626094183
+      "pct_change": 1.9677800160671801
     },
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
       "sector": "Defense",
-      "pct_change": 2.080294506121926
+      "pct_change": -1.8545866065581178
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": -1.852379273536085
     },
     {
       "ticker": "SPY",
       "name": "SPDR S&P 500",
       "sector": "Index",
-      "pct_change": -1.9839918286435227
+      "pct_change": -1.1815590917376941
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": 1.8036696993644514
-    },
-    {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": 1.5933713243181866
+      "pct_change": -0.7675825983712524
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": -1.2375535536239317
+      "pct_change": -0.23258377652176243
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": 0.07803756656157891
     }
   ]
 }
