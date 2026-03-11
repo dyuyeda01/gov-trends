@@ -1,64 +1,64 @@
 {
-  "last_updated": "2026-03-10T11:31:12Z",
+  "last_updated": "2026-03-11T11:31:20Z",
   "trends": {
-    "stocks": "Same",
+    "stocks": "Bad",
     "budgets": "Same",
     "workforce": "Same"
   },
   "stock_weekly": [
     {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Consulting/Defense",
-      "pct_change": 4.6523619845329485
-    },
-    {
-      "ticker": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Defense",
-      "pct_change": -2.692637190421545
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Defense/Cyber",
+      "pct_change": -4.505950547838269
     },
     {
       "ticker": "SAIC",
       "name": "SAIC",
       "sector": "Defense/IT",
-      "pct_change": 1.9677800160671801
+      "pct_change": -4.1304825264883505
     },
     {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
       "sector": "Defense",
-      "pct_change": -1.8545866065581178
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX",
-      "sector": "Defense",
-      "pct_change": -1.852379273536085
-    },
-    {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500",
-      "sector": "Index",
-      "pct_change": -1.1815590917376941
+      "pct_change": -3.178723155859595
     },
     {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Defense",
-      "pct_change": -0.7675825983712524
+      "pct_change": -2.497947782894258
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Defense",
+      "pct_change": -2.4857051958664407
+    },
+    {
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Consulting/Defense",
+      "pct_change": -2.121212588270268
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ",
       "sector": "Index",
-      "pct_change": -0.23258377652176243
+      "pct_change": 0.8012286025686676
     },
     {
-      "ticker": "LDOS",
-      "name": "Leidos",
-      "sector": "Defense/Cyber",
-      "pct_change": 0.07803756656157891
+      "ticker": "SPY",
+      "name": "SPDR S&P 500",
+      "sector": "Index",
+      "pct_change": -0.46301417472904344
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "sector": "Defense",
+      "pct_change": 0.23242093628170093
     }
   ]
 }
